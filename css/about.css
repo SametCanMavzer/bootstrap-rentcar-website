@@ -1,0 +1,63 @@
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-fluid {
+
+  padding: 10px;
+  background-color: rgba(0, 0, 0);
+}
+
+.navbar-nav .active>a,
+.navbar-nav a:hover {
+  color: #fc983c !important;
+}
+
+.about {
+  margin: 50px auto;
+}
+
+.rows {
+  padding: 20px 0;
+}
+
+.rows h2 {
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.rows p {
+  margin-top: 10px;
+}
+
+
+.container-fluid .ayarlama-nav {
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.navbars {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width:768px) {
+  .container-fluid .ayarlama-nav {
+    font-size: 25px;
+    position: absolute;
+    top: 8px;
+    left: 200px;
+  }
+}

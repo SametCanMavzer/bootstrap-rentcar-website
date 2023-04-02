@@ -1,0 +1,96 @@
+
+
+.send{
+  width: 480px; 
+  margin-top: 15px;
+}
+
+.adress{
+    padding: 20px 0;
+}  
+.adress li{
+padding: 10px 0;
+list-style-type: none;
+}
+
+.adress strong{
+    font-size: 35px;
+    color: #333;
+    font-weight: bold;
+}
+.adress i{
+    font-size: 20px;
+    color: #333333b5;
+    padding: 0 8px 0 0;
+}
+.adress p{
+    font-size: 25px;
+    margin: 0;
+    color: #333333b5;
+    margin-left: 10px;
+}
+
+ .adress a{
+    
+  color: #333333b5;
+} 
+
+.contact-social i {
+    font-size: 35px;
+    padding: 1rem;
+    
+  }
+  .contact-social i:hover {
+    scale: 2;
+  }
+  .contact-social .face {
+    color: #4267b2;
+     margin-left: 400px; 
+  }
+  .contact-social .twit {
+    color: #1da1f2;
+  }
+  .contact-social .yout {
+    color: #ff0000;
+  }
+  .contact-social .inst {
+    color: #c13584;
+  }
+
+  
+  @media only screen and (max-width:768px){
+   
+  iframe{
+    width: 330px;
+    height: 300px;
+    padding: 10px 0;
+  }
+  .contact-social i {
+    
+    padding: 20px 10px;
+    
+  }
+  .contact-social .face {
+    color: #4267b2;
+     margin-left: 30px; 
+  }
+  .adress strong{
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+}
+.adress p{
+  font-size: 20px;
+  margin: 0;
+  color: #333333b5;
+  margin-left: 10px;
+}
+
+.send{
+  width: 330px; 
+  margin-top: 15px;
+}
+.adress ul{
+  padding-left: 0; 
+};
+}
